@@ -1,0 +1,30 @@
+{
+  "name": "shaz-flickr",
+  "version": "1.0.0",
+  "description": "Source slide images from flickr",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gendocs": "gendocs > README.md"
+  },
+  "stability": "experimental",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DamonOehlman/shaz-flickr.git"
+  },
+  "keywords": [
+    "slide",
+    "shazam"
+  ],
+  "author": "Damon Oehlman <damon.oehlman@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DamonOehlman/shaz-flickr/issues"
+  },
+  "homepage": "https://github.com/DamonOehlman/shaz-flickr",
+  "dependencies": {
+    "JSONStream": "^0.9.0",
+    "formatter": "^0.4.1",
+    "hyperquest": "^0.3.0"
+  }
+}
